@@ -10,6 +10,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Main />} />
+        <Route path='/vefatso' exact  element={<Main />} />
       </Routes>
     </BrowserRouter>
     </div>)
