@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/vefatso.github.io/static/css/main.c85b139b.css",
+    "main.js": "/vefatso.github.io/static/js/main.7d3991e4.js",
+    "static/js/787.fafb51df.chunk.js": "/vefatso.github.io/static/js/787.fafb51df.chunk.js",
+    "static/media/background.png": "/vefatso.github.io/static/media/background.28a7d42638f955c795dd.png",
+    "static/media/background_2.png": "/vefatso.github.io/static/media/background_2.73f3379152e84f0973cd.png",
+    "static/media/back.jpg": "/vefatso.github.io/static/media/back.57923871d33a1fd232a0.jpg",
+    "static/media/intro_picture.png": "/vefatso.github.io/static/media/intro_picture.6c3fd49b8b534547e201.png",
+    "static/media/ring.png": "/vefatso.github.io/static/media/ring.da6899959967631210eb.png",
+    "static/media/background_image.png": "/vefatso.github.io/static/media/background_image.38fd78995e3d2295cbe6.png",
+    "static/media/vefatso.svg": "/vefatso.github.io/static/media/vefatso.269d382217540a17cd6801a30d8c65b1.svg",
+    "static/media/slick.svg": "/vefatso.github.io/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/vefatso.github.io/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/vefatso.github.io/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/vefatso.github.io/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/settings.svg": "/vefatso.github.io/static/media/settings.0b11fb518c0bf587fcc8b577e6b0fa66.svg",
+    "static/media/pattern.svg": "/vefatso.github.io/static/media/pattern.a0ea671cf0f12122cf256dae4bbbfdb8.svg",
+    "index.html": "/vefatso.github.io/index.html",
+    "static/media/telegram_logo.svg": "/vefatso.github.io/static/media/telegram_logo.5e2dade79b509ccd19a9c2822e59aa95.svg",
+    "static/media/basket.svg": "/vefatso.github.io/static/media/basket.064aa3797563552bb99595c0225fb9c7.svg",
+    "static/media/send_icon.svg": "/vefatso.github.io/static/media/send_icon.44068786738b053f1357624ff0a6e5f1.svg",
+    "static/media/Star.svg": "/vefatso.github.io/static/media/Star.9d6fa3a91a60f857a9ef4a33578f6ed9.svg",
+    "static/media/menu_open.svg": "/vefatso.github.io/static/media/menu_open.fe67b63b7bdbddd8d68be539e3ecc979.svg",
+    "static/media/mobile_start.svg": "/vefatso.github.io/static/media/mobile_start.ef188593506f021efeec250fea3f68ed.svg",
+    "static/media/button_arrow.svg": "/vefatso.github.io/static/media/button_arrow.ec9d06f2dbb95f39636e821dae0e610b.svg",
+    "static/media/close_button.svg": "/vefatso.github.io/static/media/close_button.eb53e10b0f61e218da1971189911d3b3.svg",
+    "static/media/add_to_favorites.svg": "/vefatso.github.io/static/media/add_to_favorites.7fba7dbe8abffebf872d10b0ed8c9ca3.svg",
+    "static/media/add_to_favorites_black_stroke.svg": "/vefatso.github.io/static/media/add_to_favorites_black_stroke.ede826e40c3d22fdee03ac330c9d1a19.svg",
+    "main.c85b139b.css.map": "/vefatso.github.io/static/css/main.c85b139b.css.map",
+    "main.7d3991e4.js.map": "/vefatso.github.io/static/js/main.7d3991e4.js.map",
+    "787.fafb51df.chunk.js.map": "/vefatso.github.io/static/js/787.fafb51df.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c85b139b.css",
+    "static/js/main.7d3991e4.js"
+  ]
+}
