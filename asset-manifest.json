@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/vefatso.github.io/static/css/main.75e5c3bc.css",
+    "main.css": "/vefatso.github.io/static/css/main.0ce9e166.css",
     "main.js": "/vefatso.github.io/static/js/main.7d3991e4.js",
     "static/js/787.fafb51df.chunk.js": "/vefatso.github.io/static/js/787.fafb51df.chunk.js",
     "static/media/background.png": "/vefatso.github.io/static/media/background.28a7d42638f955c795dd.png",
@@ -27,12 +27,12 @@
     "static/media/close_button.svg": "/vefatso.github.io/static/media/close_button.eb53e10b0f61e218da1971189911d3b3.svg",
     "static/media/add_to_favorites.svg": "/vefatso.github.io/static/media/add_to_favorites.7fba7dbe8abffebf872d10b0ed8c9ca3.svg",
     "static/media/add_to_favorites_black_stroke.svg": "/vefatso.github.io/static/media/add_to_favorites_black_stroke.ede826e40c3d22fdee03ac330c9d1a19.svg",
-    "main.75e5c3bc.css.map": "/vefatso.github.io/static/css/main.75e5c3bc.css.map",
+    "main.0ce9e166.css.map": "/vefatso.github.io/static/css/main.0ce9e166.css.map",
     "main.7d3991e4.js.map": "/vefatso.github.io/static/js/main.7d3991e4.js.map",
     "787.fafb51df.chunk.js.map": "/vefatso.github.io/static/js/787.fafb51df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.75e5c3bc.css",
+    "static/css/main.0ce9e166.css",
     "static/js/main.7d3991e4.js"
   ]
 }
