@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vefatso/static/css/main.1f50054f.css",
-    "main.js": "/vefatso/static/js/main.9a91deba.js",
+    "main.css": "/vefatso/static/css/main.d63886a8.css",
+    "main.js": "/vefatso/static/js/main.2bbd96ec.js",
     "static/js/787.fafb51df.chunk.js": "/vefatso/static/js/787.fafb51df.chunk.js",
     "static/media/background.png": "/vefatso/static/media/background.28a7d42638f955c795dd.png",
     "static/media/background_2.png": "/vefatso/static/media/background_2.73f3379152e84f0973cd.png",
@@ -28,12 +28,12 @@
     "static/media/close_button.svg": "/vefatso/static/media/close_button.eb53e10b0f61e218da1971189911d3b3.svg",
     "static/media/add_to_favorites.svg": "/vefatso/static/media/add_to_favorites.47f216bccad8cdc9c1a85df55325514c.svg",
     "static/media/add_to_favorites_black_stroke.svg": "/vefatso/static/media/add_to_favorites_black_stroke.ede826e40c3d22fdee03ac330c9d1a19.svg",
-    "main.1f50054f.css.map": "/vefatso/static/css/main.1f50054f.css.map",
-    "main.9a91deba.js.map": "/vefatso/static/js/main.9a91deba.js.map",
+    "main.d63886a8.css.map": "/vefatso/static/css/main.d63886a8.css.map",
+    "main.2bbd96ec.js.map": "/vefatso/static/js/main.2bbd96ec.js.map",
     "787.fafb51df.chunk.js.map": "/vefatso/static/js/787.fafb51df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f50054f.css",
-    "static/js/main.9a91deba.js"
+    "static/css/main.d63886a8.css",
+    "static/js/main.2bbd96ec.js"
   ]
 }
