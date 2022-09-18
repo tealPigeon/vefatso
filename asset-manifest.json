@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/vefatso/static/css/main.442b7af6.css",
-    "main.js": "/vefatso/static/js/main.336ef141.js",
+    "main.js": "/vefatso/static/js/main.6e1480c8.js",
     "static/js/787.fafb51df.chunk.js": "/vefatso/static/js/787.fafb51df.chunk.js",
     "static/media/background.png": "/vefatso/static/media/background.28a7d42638f955c795dd.png",
     "static/media/background_2.png": "/vefatso/static/media/background_2.73f3379152e84f0973cd.png",
     "static/media/back.jpg": "/vefatso/static/media/back.57923871d33a1fd232a0.jpg",
     "static/media/intro_picture.png": "/vefatso/static/media/intro_picture.6c3fd49b8b534547e201.png",
     "static/media/ring.png": "/vefatso/static/media/ring.da6899959967631210eb.png",
+    "static/media/pattern.jpeg": "/vefatso/static/media/pattern.223e26d7521cdb2169a6.jpeg",
     "static/media/background_image.png": "/vefatso/static/media/background_image.38fd78995e3d2295cbe6.png",
     "static/media/vefatso.svg": "/vefatso/static/media/vefatso.269d382217540a17cd6801a30d8c65b1.svg",
     "static/media/slick.svg": "/vefatso/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -22,7 +23,6 @@
     "static/media/slick.woff": "/vefatso/static/media/slick.295183786cd8a1389865.woff",
     "static/media/o.svg": "/vefatso/static/media/o.4bb81abf23342304cedb9a27671e7b29.svg",
     "static/media/settings.svg": "/vefatso/static/media/settings.0b11fb518c0bf587fcc8b577e6b0fa66.svg",
-    "static/media/pattern.svg": "/vefatso/static/media/pattern.a0ea671cf0f12122cf256dae4bbbfdb8.svg",
     "index.html": "/vefatso/index.html",
     "static/media/telegram_logo.svg": "/vefatso/static/media/telegram_logo.5e2dade79b509ccd19a9c2822e59aa95.svg",
     "static/media/subtract.svg": "/vefatso/static/media/subtract.23358c1461885e73e637e7d389cd0c49.svg",
@@ -37,11 +37,11 @@
     "static/media/add_to_favorites.svg": "/vefatso/static/media/add_to_favorites.47f216bccad8cdc9c1a85df55325514c.svg",
     "static/media/add_to_favorites_black_stroke.svg": "/vefatso/static/media/add_to_favorites_black_stroke.ede826e40c3d22fdee03ac330c9d1a19.svg",
     "main.442b7af6.css.map": "/vefatso/static/css/main.442b7af6.css.map",
-    "main.336ef141.js.map": "/vefatso/static/js/main.336ef141.js.map",
+    "main.6e1480c8.js.map": "/vefatso/static/js/main.6e1480c8.js.map",
     "787.fafb51df.chunk.js.map": "/vefatso/static/js/787.fafb51df.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.442b7af6.css",
-    "static/js/main.336ef141.js"
+    "static/js/main.6e1480c8.js"
   ]
 }
