@@ -26,11 +26,11 @@ import { useFetch } from "./useFetch";
 import ListProduct from "./components/ListProduct";
 
 function Main() {
-
+    const [data, loading, error] = useFetch("http://85.193.91.30/?content=json");
     let [choseConstructor, setChoseConstructor] = React.useState(false);
     let [menuIsOpen, setMenuIsOpen] = React.useState(false);
     // let [data, setData] = React.useState(null);
-    const [data, loading, error] = useFetch("http://85.193.91.30/?content=json");
+    // const 
     console.log(data)
     console.log(loading)
     console.log(error)
