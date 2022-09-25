@@ -1,7 +1,7 @@
 .header
 {
     display: flex;
-    margin: 32px auto;
+    margin: 0px auto;
     padding-top: 3px;
     padding-bottom: 2px;
     grid-template-columns: 1fr 1fr 1fr;
@@ -13,6 +13,8 @@
 {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     gap:20px;
 }
 
@@ -20,14 +22,78 @@
 {
     display: flex;
     flex-direction: row;
-    gap:20px;
+    gap:8px;
+    align-items: center;
+    justify-content: center;
 }
 
 header{
     box-sizing: content-box;
 }
 
+.header__right__basket_img
+{
+    cursor: pointer;
+     width: 16px;
+      height:16px; 
+}
+.header__right__basket, .header__right__favorite
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
 
+.header__right__basket:hover .header__right__basket_img path , .header__right__basket:hover .header__right__basket_img rect {
+	stroke: rgb(0, 0, 0);
+}
+.header__right__basket_count{
+    font-size:10px;
+    color: white;
+}
+.header__right__basket:hover .header__right__basket_count{
+    color: rgb(0, 0, 0);
+}
+
+.header__right__favorite:hover
+{
+    color: rgb(0, 0, 0);
+
+}
+.header__right__favorite:hover  .header__right__favorite_img path
+{
+    stroke: rgb(0, 0, 0);
+
+}
+.header__menu_logo
+{
+    width: 25px;
+    height: 11px;
+    cursor: pointer; 
+}
+
+.header__menu_logo:hover path
+{
+    stroke:rgb(0, 0, 0);
+}
+
+.header__logo:hover path
+{
+    stroke:rgb(0, 0, 0);
+    fill:rgb(0, 0, 0);
+}
+
+.header__logo
+{
+    cursor: pointer; 
+}
+.header__right__favorite_img
+{
+    cursor: pointer; 
+    width: 16px;
+    height:16px; 
+}
 
 @media (max-width:500px){
     .header__right

@@ -10,34 +10,48 @@ import {
 import { Slide } from "./Slide.jsx";
 import { SlideMobile } from "./SlideMobile.jsx";
 
-const data = [
-  {
-    image: "https://sun9-east.userapi.com/sun9-57/s/v1/ig2/d4a-CHYxI2H6Dcia97CGKFUMYE3f2DFmxt-NzZ7eQnjDL8t2jHkt4g2Ybz3vYuzf7mvvouMhCnNWVRiZf8BCMQ55.jpg?size=340x408&quality=96&type=album",
-    text: "название товара"
-  },
-  {
-    image: "https://sun9-east.userapi.com/sun9-57/s/v1/ig2/d4a-CHYxI2H6Dcia97CGKFUMYE3f2DFmxt-NzZ7eQnjDL8t2jHkt4g2Ybz3vYuzf7mvvouMhCnNWVRiZf8BCMQ55.jpg?size=340x408&quality=96&type=album",
-    text: "название товара"
-  },
-  {
-    image: "https://sun9-east.userapi.com/sun9-57/s/v1/ig2/d4a-CHYxI2H6Dcia97CGKFUMYE3f2DFmxt-NzZ7eQnjDL8t2jHkt4g2Ybz3vYuzf7mvvouMhCnNWVRiZf8BCMQ55.jpg?size=340x408&quality=96&type=album",
-    text: "название товара"
-  },
-  {
-    image: "https://sun9-east.userapi.com/sun9-57/s/v1/ig2/d4a-CHYxI2H6Dcia97CGKFUMYE3f2DFmxt-NzZ7eQnjDL8t2jHkt4g2Ybz3vYuzf7mvvouMhCnNWVRiZf8BCMQ55.jpg?size=340x408&quality=96&type=album",
-    text: "название товара"
-  },
-  {
-    image: "https://sun9-east.userapi.com/sun9-57/s/v1/ig2/d4a-CHYxI2H6Dcia97CGKFUMYE3f2DFmxt-NzZ7eQnjDL8t2jHkt4g2Ybz3vYuzf7mvvouMhCnNWVRiZf8BCMQ55.jpg?size=340x408&quality=96&type=album",
-    text: "название товара"
-  }
-];
 
-const Carousel = () => {
+
+function Carousel({slides})
+{
+  console.log(slides)
+  let data = []
+  if (slides != undefined)
+  slides.map((slide)=>{
+  data.push( {
+        id:slide.id,
+        image: `http://85.193.91.30/media/${slide.picture}`,
+        text: slide.title
+      })
+  });
+else
+ data = [
+    {
+      image: "https://sun9-east.userapi.com/sun9-57/s/v1/ig2/d4a-CHYxI2H6Dcia97CGKFUMYE3f2DFmxt-NzZ7eQnjDL8t2jHkt4g2Ybz3vYuzf7mvvouMhCnNWVRiZf8BCMQ55.jpg?size=340x408&quality=96&type=album",
+      text: "название товара"
+    },
+    {
+      image: "https://sun9-east.userapi.com/sun9-57/s/v1/ig2/d4a-CHYxI2H6Dcia97CGKFUMYE3f2DFmxt-NzZ7eQnjDL8t2jHkt4g2Ybz3vYuzf7mvvouMhCnNWVRiZf8BCMQ55.jpg?size=340x408&quality=96&type=album",
+      text: "название товара"
+    },
+    {
+      image: "https://sun9-east.userapi.com/sun9-57/s/v1/ig2/d4a-CHYxI2H6Dcia97CGKFUMYE3f2DFmxt-NzZ7eQnjDL8t2jHkt4g2Ybz3vYuzf7mvvouMhCnNWVRiZf8BCMQ55.jpg?size=340x408&quality=96&type=album",
+      text: "название товара"
+    },
+    {
+      image: "https://sun9-east.userapi.com/sun9-57/s/v1/ig2/d4a-CHYxI2H6Dcia97CGKFUMYE3f2DFmxt-NzZ7eQnjDL8t2jHkt4g2Ybz3vYuzf7mvvouMhCnNWVRiZf8BCMQ55.jpg?size=340x408&quality=96&type=album",
+      text: "название товара"
+    },
+    {
+      image: "https://sun9-east.userapi.com/sun9-57/s/v1/ig2/d4a-CHYxI2H6Dcia97CGKFUMYE3f2DFmxt-NzZ7eQnjDL8t2jHkt4g2Ybz3vYuzf7mvvouMhCnNWVRiZf8BCMQ55.jpg?size=340x408&quality=96&type=album",
+      text: "название товара"
+    }
+  ];
+  
   const ref = React.useRef(StackedCarousel);
   return (
-    <div className="card">
-      <div style={{}}>
+    <div className="card" >
+      <div style={{ width: "100%", position: "relative" }}>
         <ResponsiveContainer
           carouselRef={ref}
           render={(width, carouselRef) => {
@@ -54,6 +68,8 @@ const Carousel = () => {
                     disableSwipe
                     customScales={[1, 0.6, 0.4, 1]}
                     transitionTime={700}
+                    swipe={true}
+                    height={516}
                   /></div>
 
                 <div className="carousel_mobile">
@@ -64,9 +80,10 @@ const Carousel = () => {
                     carouselWidth={width}
                     data={data}
                     maxVisibleSlide={3}
-                    disableSwipe
                     customScales={[1, 0.7, 1]}
                     transitionTime={700}
+                    useGrabCursor={true}
+                    height={516}
                   />
                 </div>
               </>

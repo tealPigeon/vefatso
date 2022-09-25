@@ -1,74 +1,46 @@
 import styles from './Header.module.css'
-import vefatso from '../vefatso.svg'
-import menu from '../menu_open.svg'
-import add_to_favorites from '../add_to_favorites.svg'
-import basket from '../basket.svg'
-import React from "react";
-import telegram_logo from "../telegram_logo.svg"
-import close_button from "../close_button.svg"
+import {ReactComponent as Logo} from '../vefatso.svg'
+import {ReactComponent as Menu}  from '../menu_open.svg'
+import {ReactComponent as Favorites} from '../add_to_favorites.svg'
 
-function Header()
-{
-    let [menuIsOpen, setMenuIsOpen] = React.useState(false);
+import {ReactComponent as Basket} from '../basket.svg'
+// import basket from '../basket.svg'
+import React from "react";
+import {ReactComponent as TelegramLogo} from "../telegram_logo.svg"
+import {ReactComponent as CloseButton} from "../close_button.svg"
+import {Link } from 'react-router-dom';
+
+// import {ReactComponent as ReactLogo} from './logo.svg';
+
+
+function Header({setMenuIsOpen}) {
+
 
     return <>
-    <header>
-        <div className={styles.header}  style={{justifyContent: "space-between"}}>
-            <div className={styles.header__menu_logo}>
-                {/* <div>menu</div> */}
-                <img src={menu} style={{width: "25px", height:"11px", cursor:"pointer" }} onClick={()=>{setMenuIsOpen(!menuIsOpen)}}/>
-                
-                {/* <div>logo</div> */}
-            </div>
-            <img src={vefatso} style={{cursor:"pointer" }} />
-            <div className={styles.header__right}>
-            {/* <div>search</div> */}
-            <img src={add_to_favorites} style={{cursor:"pointer" }}/>
-            <p>20</p>
-            <img src={basket} style={{cursor:"pointer" }}/>
-            <p>1</p>
-               {/* <div>bookmarks</div> */}
-                {/* <div>basket</div> */}
-            </div>
+        <header>
+            <div className={styles.header} style={{ justifyContent: "space-between" }}>
+                    <Menu className={styles.header__menu_logo} onClick={() => setMenuIsOpen(true) } />
+                    <Logo className={styles.header__logo} />
+                <div className={styles.header__right}>
+                    {/* <div>search</div> */}
+                    <div className={styles.header__right__favorite}>
+                        <Favorites className={styles.header__right__favorite_img} />
+                    <p  style={{fontSize:"10px"}}>20</p>
+                    </div>
 
-        </div>
-    </header>
-            {
-                menuIsOpen ? <div className="menu">
-                  <img className="menu_close" src={close_button} onClick={()=>{setMenuIsOpen(!menuIsOpen)}} /> 
-
-                    <h3 className='menu_heading'>категория</h3>
-                    <ul className='menu_heading_items' style={{textAlign: "left", listStyleType:"none", cursor:"pointer"}}>
-                    <li>все</li>
-                    <li>кольца</li>
-                    <li>серьги</li>
-                    <li>подвески</li>
-                    <li>браслеты</li>
-                    <li>амулеты</li>
-                    </ul>
-                    <h3 className='menu_heading'>коллекции</h3>
-                    <ul className='menu_heading_items' style={{textAlign: "left", }}>
-                    <li>вспоминания</li>            
-                    <li>тишина</li>
-                    <li>текст</li>
-                    </ul>
-                    <h3 className='menu_heading'>конструктор</h3>
-                    <h3 className='menu_heading'>личный кабинет</h3>    
-                    <ul className='menu_heading_items' style={{textAlign: "left", }}>       
-                    <li>избранное</li>
-                    <li>корзина</li>
-                    <li>войти</li>
-                    </ul>
-                  
-                {/* <div  onClick={()=>{setMenuIsOpen(!menuIsOpen)}}>x</div> */}
-                <div style={{display: "flex", gap:"12px", textAlign:"center", marginTop:"50px"}}>
-                    <img src={telegram_logo}/>
-                    <div style={{color:"black", fontWeight: "400"}}>TELEGRAM</div>
+                    <div  className={styles.header__right__basket}>
+                        <Basket className={styles.header__right__basket_img}/>
+                        <p className={styles.header__right__basket_count} >1</p>
+                    </div>
+                    
+                    {/* <img src={basket} style={{ cursor: "pointer", width: "10px", height:"14px" }} /> */}
+                    
+                    {/* <div>bookmarks</div> */}
+                    {/* <div>basket</div> */}
                 </div>
-                
-               
-            </div>: null
-            }
+
+            </div>
+        </header>
 
     </>;
 }

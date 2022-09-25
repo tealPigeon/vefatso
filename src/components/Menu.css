@@ -1,0 +1,137 @@
+.menu_heading {
+	font-family: 'Montserrat';
+	font-style: italic;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	cursor: pointer;
+	text-transform: uppercase;
+	color: #000000;
+	/* margin-top: 50px; */
+}
+
+.menu_close:hover {
+	cursor: pointer;
+	stroke: #fff;
+}
+
+.menu {
+	z-index: 2;
+	width: 381px;
+	background: #C77541;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 50px;
+	text-align: left;
+	transition: color .9s;
+	padding-bottom: 50px;
+}
+
+.menu_items {
+	text-align: left;
+	list-style-type: none;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	cursor: pointer;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+}
+
+.menu_items li {
+	margin-bottom: 20px;
+	cursor: pointer;
+	color: #000000;
+}
+
+.menu_items a {
+	text-decoration: none;
+}
+
+
+.menu_items li:hover {
+
+	color: #ffffff;
+}
+
+.menu_heading:hover {
+
+	color: #ffffff;
+}
+
+.menu_telegram_link {
+	display: flex;
+	gap: 12px;
+	text-align: center;
+	margin-top: 50px;
+	cursor: pointer;
+}
+
+.menu_telegram_link_text {
+	color: black;
+	font-weight: 400;
+}
+
+.menu_telegram_link:hover .menu_telegram_link_text {
+	color: rgb(255, 255, 255);
+
+}
+
+.menu_telegram_link:hover .menu_telegram_link_img path {
+	fill: rgb(255, 255, 255);
+}
+
+.active_point {
+	color: #ffffff !important;
+	text-decoration: underline;
+
+}
+
+.menu__mobile {
+	display: none;
+}
+
+.menu_close {
+	margin-bottom: 40px;
+}
+
+@media (max-width:800px) {
+	.menu {
+		width: calc(100% - 100px);
+		transition: transform 0.3s ease-out;
+	}
+
+	.menu_close {
+		position: absolute;
+		right: 50px;
+	}
+
+
+	.menu__mobile {
+		display: block;
+	}
+
+    .menu .menu_heading:first-child {
+		margin-top: 0px;
+	}
+
+    .menu {
+		/* width: 100vw; */
+		/* height: 100vh; */
+	}
+
+	.menu .menu_heading:first-child {
+		margin-top: 0px;
+	}
+
+    .menu {
+		box-sizing: content-box !important;
+		z-index: 20;
+		/* height: auto; */
+	}
+}
