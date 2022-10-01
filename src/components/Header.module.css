@@ -37,12 +37,20 @@ header{
      width: 16px;
       height:16px; 
 }
-.header__right__basket, .header__right__favorite
+.header__right__basket
 {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5px;
+}
+
+.header__right__favorite
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
 }
 
 .header__right__basket:hover .header__right__basket_img path , .header__right__basket:hover .header__right__basket_img rect {

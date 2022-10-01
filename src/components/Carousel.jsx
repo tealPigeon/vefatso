@@ -3,51 +3,22 @@ import {
   StackedCarousel,
   ResponsiveContainer
 } from "react-stacked-center-carousel";
-// import Fab from "@material-ui/core/Fab";
-// import KeyboardArrowLeftIcon from "@material-ui/icons/KeyboardArrowLeft";
-// import KeyboardArrowRightIcon from "@material-ui/icons/KeyboardArrowRight";
-// import "./Slide.css";
 import { Slide } from "./Slide.jsx";
 import { SlideMobile } from "./SlideMobile.jsx";
+import "./Carousel.css";
 
-
-
-function Carousel({slides})
+function Carousel({slides, url})
 {
-  console.log(slides)
   let data = []
-  if (slides != undefined)
-  slides.map((slide)=>{
+  slides.forEach((slide)=>{
   data.push( {
         id:slide.id,
-        image: `http://85.193.91.30/media/${slide.picture}`,
+        // image: `http://85.193.91.30/media/${slide.picture}`,
+        image: url+slide.picture,
         text: slide.title
       })
   });
-else
- data = [
-    {
-      image: "https://sun9-east.userapi.com/sun9-57/s/v1/ig2/d4a-CHYxI2H6Dcia97CGKFUMYE3f2DFmxt-NzZ7eQnjDL8t2jHkt4g2Ybz3vYuzf7mvvouMhCnNWVRiZf8BCMQ55.jpg?size=340x408&quality=96&type=album",
-      text: "название товара"
-    },
-    {
-      image: "https://sun9-east.userapi.com/sun9-57/s/v1/ig2/d4a-CHYxI2H6Dcia97CGKFUMYE3f2DFmxt-NzZ7eQnjDL8t2jHkt4g2Ybz3vYuzf7mvvouMhCnNWVRiZf8BCMQ55.jpg?size=340x408&quality=96&type=album",
-      text: "название товара"
-    },
-    {
-      image: "https://sun9-east.userapi.com/sun9-57/s/v1/ig2/d4a-CHYxI2H6Dcia97CGKFUMYE3f2DFmxt-NzZ7eQnjDL8t2jHkt4g2Ybz3vYuzf7mvvouMhCnNWVRiZf8BCMQ55.jpg?size=340x408&quality=96&type=album",
-      text: "название товара"
-    },
-    {
-      image: "https://sun9-east.userapi.com/sun9-57/s/v1/ig2/d4a-CHYxI2H6Dcia97CGKFUMYE3f2DFmxt-NzZ7eQnjDL8t2jHkt4g2Ybz3vYuzf7mvvouMhCnNWVRiZf8BCMQ55.jpg?size=340x408&quality=96&type=album",
-      text: "название товара"
-    },
-    {
-      image: "https://sun9-east.userapi.com/sun9-57/s/v1/ig2/d4a-CHYxI2H6Dcia97CGKFUMYE3f2DFmxt-NzZ7eQnjDL8t2jHkt4g2Ybz3vYuzf7mvvouMhCnNWVRiZf8BCMQ55.jpg?size=340x408&quality=96&type=album",
-      text: "название товара"
-    }
-  ];
-  
+
   const ref = React.useRef(StackedCarousel);
   return (
     <div className="card" >
@@ -87,25 +58,9 @@ else
                   />
                 </div>
               </>
-
-
             );
           }}
         />
-        {/* <Fab
-          className="card-button left"
-          size="small"
-          onClick={() => ref.current?.goBack()}
-        >
-          <KeyboardArrowLeftIcon style={{ fontSize: 30 }} />
-        </Fab>
-        <Fab
-          className="card-button right"
-          size="small"
-          onClick={() => ref.current?.goNext()}
-        >
-          <KeyboardArrowRightIcon style={{ fontSize: 30 }} /> */}
-        {/* </Fab> */}
       </div>
     </div>
   );

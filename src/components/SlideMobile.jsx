@@ -1,10 +1,5 @@
-
 import React from "react";
-// import { StackedCarouselSlideProps } from "react-stacked-center-carousel";
-// import "./Slide.css";
-// import addToFavorites from '../add_to_favorites_black_stroke.svg';
-// import settings from '../settings.svg';
-import { ReactComponent as Favorites } from '../add_to_favorites_black_stroke.svg';
+import { ReactComponent as Favorites } from '../favorites_product.svg';
 import { ReactComponent as Settings } from '../settings.svg';
 
 export const SlideMobile = React.memo(function (StackedCarouselSlideProps) {

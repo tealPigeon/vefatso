@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react"
 export function useFetch(url, opts) {
 
-    const [data,setData] = useState(null)
+    const [data,setData] = useState()
     const [loading,setLoading] = useState(false)
-    const [error,setError] = useState(null)
+    const [error,setError] = useState()
 
     useEffect(()=>{
         (
@@ -11,7 +11,6 @@ export function useFetch(url, opts) {
             try{
                 const response = await fetch("http://85.193.91.30/?content=json");
                 const res = await response.json()
-                console.log(res)
                 setLoading(true)
                 setData(res)
             }

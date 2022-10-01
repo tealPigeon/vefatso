@@ -2,7 +2,8 @@
 {
     width: 300px;
 }
-
+.discription
+{cursor: pointer;}
 .product_title
 {
     font-family: Cormorant Garamond;
