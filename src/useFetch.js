@@ -9,7 +9,13 @@ export function useFetch(url, opts) {
         (
         async function(){
             try{
-                const response = await fetch("http://85.193.91.30/?content=json");
+                const response = await fetch("http://85.193.91.30/?content=json",
+                {   method:'GET',
+                    mode: 'cors',
+                    headers:{
+                        'Access-Control-Allow-Origin':'*'
+                    },
+                });
                 const res = await response.json()
                 setLoading(true)
                 setData(res)

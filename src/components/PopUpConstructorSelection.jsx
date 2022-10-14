@@ -35,20 +35,20 @@ function PopUpConstructorSelection({openChoosingConstructor, open})
             </div>
             <div className="choose_constructor" >                                
             <div className="choose_constructor__image " style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1582794543139-8ac9cb0f7b11?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80)'}}></div>
-            <p className="choose_constructor_name" >кольца</p>
-                <p className="choose_constructor_description" > руки не крюки</p>
+            <p className="choose_constructor_name" >подвески</p>
+                <p className="choose_constructor_description" >нежная шея требует красоты</p>
             </div>
             </div>
 <div  className="choose_constructor_wrapper" >
                 <div className="choose_constructor" >                                
             <div className="choose_constructor__image "style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1469259943454-aa100abba749?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80)' }}></div>
-            <p className="choose_constructor_name" >кольца</p>
-                <p className="choose_constructor_description" > руки не крюки</p>
+            <p className="choose_constructor_name" >браслеты</p>
+                <p className="choose_constructor_description" > обернись вокруг запястья</p>
             </div>
             <div className="choose_constructor" >                                
             <div className="choose_constructor__image " style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1460039230329-eb070fc6c77c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80)'}}></div>
-            <p className="choose_constructor_name" >кольца</p>
-                <p className="choose_constructor_description" > руки не крюки</p>
+            <p className="choose_constructor_name" >серьги</p>
+                <p className="choose_constructor_description" >судьба в ваших руках</p>
             </div>
             </div>
         </div>

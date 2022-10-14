@@ -16,6 +16,7 @@
     "react-slick": "^0.29.0",
     "react-stacked-center-carousel": "^1.0.12",
     "save-dev": "^0.0.1-security",
+    "scroll-lock": "^2.1.5",
     "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },

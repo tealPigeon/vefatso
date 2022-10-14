@@ -7912,6 +7912,11 @@
     "ajv" "^6.12.2"
     "ajv-keywords" "^3.4.1"
 
+"scroll-lock@^2.1.5":
+  "integrity" "sha512-GN8Lp0AzXbkrPFUUNkMUruiiv019UvarNKE/SnXi+AxZRjMnDc2R22VB9RcUtL4P/uub04cKibmpHKIKTyWwYQ=="
+  "resolved" "https://registry.npmjs.org/scroll-lock/-/scroll-lock-2.1.5.tgz"
+  "version" "2.1.5"
+
 "select-hose@^2.0.0":
   "integrity" "sha512-mEugaLK+YfkijB4fx0e6kImuJdCIt2LxCRcbEYPqRGCs4F2ogyfZU5IAZRdjCP8JPq2AtdNoC/Dux63d9Kiryg=="
   "resolved" "https://registry.npmjs.org/select-hose/-/select-hose-2.0.0.tgz"
